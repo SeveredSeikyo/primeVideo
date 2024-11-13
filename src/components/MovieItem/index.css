@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.movie-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.movie-item-container img {
+  height: 200px;
+  width: 300px;
+}
+
+.popup-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.close-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.close-button button {
+  border: none;
+  outline: none;
+  font-size: 30px;
+  background-color: transparent;
+}
+
+.video-player {
+  margin: 10px;
+}
